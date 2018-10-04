@@ -42,6 +42,7 @@
 .icon-facebook, .icon-twitter {
   padding:10px;
   cursor: pointer;
+  color: #991b1e;
 }
 
 .icon-facebook:hover, .icon-twitter:hover {
@@ -51,7 +52,7 @@
 /* Links */
 
 a:link {
-  color: red;
+  color: #991b1e;
 }
 
 a:hover {
@@ -59,7 +60,7 @@ a:hover {
 }
 
 a:visited {
-  color: #cdcdcd;
+  color: #666666;
 }
 
 /* End Base styles */
