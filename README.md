@@ -23,3 +23,5 @@ JQuery
 Optional Bootstrap grid
 
 Font Awesome icons
+
+Example: https://capital-news-service.github.io/cns-html-template/cns-html-template.html
