@@ -1,5 +1,3 @@
-//These functions trigger share windows for Twitter and Facebook when a user clicks on an element assigned the noted class
-
     $(".icon-twitter").on("click", function(){
 
       var tweet = "xxx"; //Tweet text
