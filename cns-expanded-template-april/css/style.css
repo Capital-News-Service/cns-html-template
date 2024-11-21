@@ -1,0 +1,324 @@
+/* STRUCTURAL ELEMENTS */
+html {
+  scroll-behavior: smooth;
+}
+
+BODY {
+  font-family: 'Source Serif Pro', serif;
+  font-size:1em;
+}
+
+.container {
+  text-align:center;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.toc-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width:200px;
+  margin:10px;
+  padding:0px;
+}
+
+.toc-text{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  font-size:.85em;
+  color:#000;
+  width:100%;
+  min-height:50px;
+  opacity:.7;
+  background-color: #fff;
+  padding:5px;
+}
+
+.embed-container {
+  width:100%;
+  padding: 25px;
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  background: #000;
+  height:100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+}
+
+
+/* Nav Bar styles */
+
+#nav-logo {
+  width:100%;
+  max-width:1000px;
+  margin:0 auto;
+}
+
+#logo {
+  width:250px;
+}
+
+
+/* LINK STYLES */
+
+a:link {
+  color:#991b1e;
+    text-decoration:none;
+}
+
+a:hover {
+  color:#999999;
+  text-decoration:underline;
+}
+
+a:visited {
+  color:#991b1e;
+  text-decoration:none;
+}
+
+a:active {
+  color:#991b1e;
+  text-decoration:none;
+}
+
+a:link.toc-link {color:#000;}
+
+a:visited.toc-link {color:#000;}
+
+
+
+/* IMAGES */
+
+.hero-image{
+    width:100%;
+}
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+}
+
+.toc-image {
+  width:200px;
+}
+
+
+/* TYPOGRAPHY */
+
+.hero-text{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-weight:bold;
+  font-family: 'Poppins', sans-serif;
+  font-size:3em;
+}
+
+
+
+.hed {
+  font-size:3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  text-align:left;
+  line-height:180%;
+  font-family: 'Source Serif Pro', serif;
+  font-size:1em;
+}
+
+.byline {
+  font-size:1em;
+  text-transform:uppercase;
+  margin-top:-10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro-text {
+  font-family: 'Poppins', sans-serif;
+  font-size:1.25em;
+  max-width:800px;
+  margin:0 auto;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.chapter-head {
+  font-size:2em;
+  font-family: 'Poppins', sans-serif;
+  padding-top:20px;
+}
+
+.small-head {
+  font-size:1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.caption {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Poppins', sans-serif;
+  color:#999;
+}
+
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  color: #fff
+}
+
+.quote {
+  font-family: 'Poppins', sans-serif;
+  font-size:2em;
+  text-align: left;
+  padding: 15px 0 15px 0;
+}
+
+.quote-mark {
+  color:#991b1e;
+}
+
+.quote-attribution {
+  font-family: 'Poppins', sans-serif;
+  font-size:.5em;
+  text-align:center;
+  color:#991b1e;
+}
+
+.dropcap {
+  color: #991b1e;
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 700;
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* APRIL GRAPHIC SYLES */
+
+.april-graphic {
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.april-text {
+  padding-top:50px;
+  font-size:1.25em;
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:550px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .hero-text{
+    font-size:2em;
+    top:50%;
+  }
+
+  .intro-text {
+    font-size:1em;
+  }
+
+  .chapter-head {
+    font-size:1.25em;
+  }
+
+  .hed {
+    font-size:2em;
+  }
+
+  .quote {
+    font-size:1em;
+  }
+
+}
+
+
+
+/* Twitter and Facebook icon styles =========== */
+
+.icon-twitter, .icon-facebook {
+  margin-right:10px;
+  font-size:2em;
+  color:#991b1e;
+  cursor: pointer;
+
+}
+
+.icon-twitter:hover, .icon-facebook:hover {
+  color:#cdcdcd;
+
+}
+
+
+@font-face {
+  font-family: 'icons';
+  src:url('../icons/icons.eot?fylnot');
+  src:url('../icons/icons.eot?#iefixfylnot') format('embedded-opentype'),
+    url('../icons/icons.woff?fylnot') format('woff'),
+    url('../icons/icons.ttf?fylnot') format('truetype'),
+    url('../icons/icons.svg?fylnot#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-twitter:before {
+  content: "\e621";
+}
+.icon-facebook:before {
+  content: "\e620";
+}
